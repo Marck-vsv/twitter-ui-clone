@@ -7,17 +7,19 @@ const config: Config = {
         "./app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
-        colors: {
-            "blue-primary": "#1DA1F2",
-            "dark-1": "#17202A",
-            "dark-2": "#1C2733",
-            "dark-3": "#283340",
-            "dark-4": "#3A444C",
-            "dark-5": "#5B7083",
-            "dark-6": "#8899A6",
-            "dark-7": "#EBEEF0",
-            "dark-8": "#F7F9FA",
-        }
+        extend: {
+            colors: {
+                "blue-primary": "#1DA1F2",
+                "dark-1": "#17202A",
+                "dark-2": "#1C2733",
+                "dark-3": "#283340",
+                "dark-4": "#3A444C",
+                "dark-5": "#5B7083",
+                "dark-6": "#8899A6",
+                "dark-7": "#EBEEF0",
+                "dark-8": "#F7F9FA",
+            }
+        },
     },
     plugins: [],
 };
